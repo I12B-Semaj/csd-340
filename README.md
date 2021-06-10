@@ -1,2 +1,2 @@
 # csd-340
-CSD 340 Summer 2021
+CSD 340 Web Development Summer 2021

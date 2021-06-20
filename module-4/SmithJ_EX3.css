@@ -1,0 +1,67 @@
+/* 
+Name: James Smith
+Date: 6/19/2021
+CSD 340
+Module 4.3
+*/
+
+/*
+Preface: The solution had to be heavily referenced on this assignment as I had followed the assignment instructions to the best
+of my ability. Verifying both the HTML and CSS along with comparing my results to the provided Final Solution Visual led me to 
+second guess what I had coded (I tried some things and failed). The solution has opened my eyes to a much better approach to coding
+in HTML and CSS for future instances.
+*/
+
+#title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+/* Solution code was referenced and helped condense code */
+#favorite-movies {
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300; 
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    float: left;    /* Referenced from solution to help create the side-by-side effect */
+}
+
+#things-learned {
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    float: right;   /* Referenced from solution to help create the side-by-side effect */
+}
+
+h3 {
+    font-weight: 500;
+}
+
+/* Solution code was used and helped define the below elements and condense code 
+- Things became confusing when referencing steps that mentioned "last div"(4th & 5th steps) vs. "bottom div" (last step)
+*/
+#roman-numerals {
+    list-style-type: upper-roman;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 60%;    
+}
+#favorite-site, #back-to-top {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#favorite-site:hover, #back-to-top:hover {
+    text-decoration: underline;
+}
+#back-to-top {
+    float: right;
+    margin-bottom: 20px;
+}

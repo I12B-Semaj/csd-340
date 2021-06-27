@@ -1,0 +1,57 @@
+/* 
+Name: James Smith
+Date: 6/26/2021
+CSD 340
+Module 5.2
+*/
+
+html {
+    background-color: rgba(247, 112, 24, .2);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#image-gallery {
+    margin-top: 10%;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400; 
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400; 
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400; 
+}
+
+h1, h3, figcaption {
+    color: rgba(185, 63, 8, 1);
+}
+
+.grid-item {
+    border: 1px solid rgba(185, 63, 8, 1);
+    border-radius: 15px;
+    padding: 5px;
+}

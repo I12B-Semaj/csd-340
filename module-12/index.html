@@ -1,0 +1,150 @@
+<!-- 
+Name: James Smith
+Date: 8/1/2021
+CSD 340
+Final Project Personal BioSite
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <h1>James Smith's Landing Page</h1>
+    <nav class="navbar">
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+    
+<body>
+
+    <img src="images/self-portrait.jpg" alt="Portrait" class="portrait" height="266" width="200"> 
+
+    <div class="container">
+
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+            <hr />
+
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                        Board/Card Games
+                    </div>
+                    <div class="card-content">
+                        I enjoy playing board and card games with friends and family. Our families' favorite card game to play is
+                        "UNO". We enjoy playing "Boss Monster" with our friends.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Video Games
+                    </div>
+                    <div class="card-content">
+                        When I am not spending my free time with family and friends, I typically like to play
+                        video games. I am currently playing "The Witcher 3" on console and "Genshin Impact" on PC.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Exercising
+                    </div>
+                    <div class="card-content">
+                        My wife and I love to exercise together. We do everything from in-home calisthenics to walking hilled areas.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience" id="experience">
+            <h1>Work Experience</h1>
+            <hr />
+
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                        Service Industry
+                    </div>
+                    <div class="card-content">
+                        I have dedicated 8+ years of my life to service-related jobs. I have filled many roles at a sports bar. 
+                        I have even worked in a facility services job where I maintained the wants and needs of several customers.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        IT Specialist
+                    </div>
+                    <div class="card-content">
+                        This is my current role, and I am part of a team that is dedicated to performing facility maintenance. This 
+                        position could again be classified as a service related job.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Bank Processing
+                    </div>
+                    <div class="card-content">
+                        I like to be financially competent and this is a field that I gravitated towards to get a better feel for 
+                        the importance of handling money. I have worked in a bank vault and have acquired a ton of knowledge on the 
+                        handling and processing of money. I got to witness how clients would structure their business accounts for 
+                        their business-related needs.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-container" id="contact"> 
+            
+            <h1>Contact</h1>
+            <hr />
+            
+            <div class="card full-width">
+                <div class="card-title">
+                    Form
+                </div>
+
+                <div class="card-content">
+
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>
+                &copy;James Smith
+            </p>
+        </div>
+    </div>
+</body>
+</html>
